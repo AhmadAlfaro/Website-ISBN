@@ -55,13 +55,13 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background: #f26ed5;
+    background: #fdaeea;
     color: rgb white;
     transition: 0.3s;
 }
 
 button:hover {
-    background: #f26ed5
+    background: #fdaeea
 }
 
 #hasil {
@@ -71,4 +71,5 @@ button:hover {
     padding: 10px;
     color: white;
     text-shadow: 0 0 5px black;
+
 }
