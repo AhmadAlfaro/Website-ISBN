@@ -44,7 +44,7 @@ function cekISBN() {
 
     if (isValidISBN10(isbn)) {
         hasil.textContent = "ISBN Valid (ISBN-10)";
-        hasil.style.color = "blue";
+        hasil.style.color = "green";
     } 
     else if (isValidISBN13(isbn)) {
         hasil.textContent = "ISBN Valid (ISBN-13)";
@@ -54,4 +54,5 @@ function cekISBN() {
         hasil.textContent = "ISBN Tidak Valid!";
         hasil.style.color = "firebrick";
     }
+
 }
